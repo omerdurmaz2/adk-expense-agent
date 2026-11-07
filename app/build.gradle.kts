@@ -39,19 +39,19 @@ android {
 
 dependencies {
     // ADK for Kotlin. 1.5.0 exists; see the README before upgrading.
-    implementation("com.google.adk:google-adk-kotlin-core:1.4.0")
-    ksp("com.google.adk:google-adk-kotlin-processor:1.4.0")
-    implementation("com.google.adk:google-adk-kotlin-firebase-android:1.4.0")
+    implementation("com.google.adk:google-adk-kotlin-core:1.5.0")
+    ksp("com.google.adk:google-adk-kotlin-processor:1.5.0")
+    implementation("com.google.adk:google-adk-kotlin-firebase-android:1.5.0")
 
     // Firebase AI Logic + App Check (only used when google-services.json is present).
-    implementation(platform("com.google.firebase:firebase-bom:35.0.2"))
+    implementation(platform("com.google.firebase:firebase-bom:35.1.0"))
     implementation("com.google.firebase:firebase-ai")
     implementation("com.google.firebase:firebase-appcheck-playintegrity")
     debugImplementation("com.google.firebase:firebase-appcheck-debug")
 
     // Expenses live in their own Room database; ADK's RoomSessionService uses the same Room.
-    implementation("androidx.room:room-runtime:2.8.4")
-    ksp("androidx.room:room-compiler:2.8.4")
+    implementation("androidx.room:room-runtime:2.8.5")
+    ksp("androidx.room:room-compiler:2.8.5")
 
     implementation(platform("androidx.compose:compose-bom:2026.09.00"))
     implementation("androidx.compose.material3:material3")
@@ -59,7 +59,7 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.11.0")
     implementation("androidx.lifecycle:lifecycle-runtime-compose:2.11.0")
 
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:2.3.21")
+    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:2.4.21")
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.11.0")
     // Koog is only here for the side-by-side AddExpenseTool in src/test; it isn't in the APK.
     testImplementation("ai.koog:koog-agents:1.3.0")
