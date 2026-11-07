@@ -1,0 +1,22 @@
+# Gradle / Android Studio
+.gradle/
+.kotlin/
+build/
+.idea/
+*.iml
+captures/
+.cxx/
+.externalNativeBuild/
+local.properties
+.DS_Store
+
+# Your own Firebase config: keep it out of the repo
+google-services.json
+
+# Signing
+*.jks
+*.keystore
+keystore.properties
+
+# Local hand-over notes
+PROGRESS.md

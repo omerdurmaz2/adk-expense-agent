@@ -1,0 +1,10 @@
+<resources>
+    <string name="model_demo">Demo model: çevrimdışı ve senaryolu, yapay zekâ yok</string>
+    <string name="model_firebase">Firebase AI Logic üzerinden Gemini</string>
+    <string name="input_hint">Dünkü 18.40 taksiyi ekle</string>
+    <string name="send">Gönder</string>
+    <string name="confirm_expense">%3$s tarihli %1$s tutarındaki %2$s harcaması kaydedilsin mi?</string>
+    <string name="save">Kaydet</string>
+    <string name="reject">Kaydetme</string>
+    <string name="agent_failed">Asistan işi bitiremedi. Tekrar dene.</string>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name" translatable="false">ADK Expense Agent</string>
+    <string name="model_demo">Demo model: offline and scripted, no AI</string>
+    <string name="model_firebase">Gemini via Firebase AI Logic</string>
+    <string name="input_hint">Add yesterday\'s taxi 18.40</string>
+    <string name="send">Send</string>
+    <string name="confirm_expense">Save %1$s for %2$s on %3$s?</string>
+    <string name="save">Save</string>
+    <string name="reject">Don\'t save</string>
+    <string name="agent_failed">The assistant couldn\'t finish. Try again.</string>
+</resources>
