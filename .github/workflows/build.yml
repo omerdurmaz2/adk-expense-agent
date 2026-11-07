@@ -18,7 +18,7 @@ jobs:
         with:
           distribution: temurin
           java-version: 21
-      - uses: gradle/actions/setup-gradle@v5
+      - uses: gradle/actions/setup-gradle@v6
       # No google-services.json in CI, so this builds and tests the offline DemoModel path.
       - run: ./gradlew assembleDebug testDebugUnitTest lint
       - if: failure()
